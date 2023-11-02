@@ -9,10 +9,10 @@ public class InputOutput {
 	    int income,retire;
       String name;
       boolean city;
-	  // make scanner to read input file
-    Scanner infile = new Scanner(new File("/Users/Mark/Documents/JavaFiles/A2/a2input.txt"));
+	  // make scanner to read input file - CHANGE INPUT TO YOUR FILE'S CURRENT DIRECTORY
+    Scanner infile = new Scanner(new File("/Users/Mark/Desktop/Input-Output/a2input.txt"));
 	  //make filewriter for output file
-    FileWriter myWriter = new FileWriter("/Users/Mark/Documents/JavaFiles/A2/a2output.txt");
+    FileWriter myWriter = new FileWriter("/Users/Mark/Desktop/Input-Output/a2output.txt");
 	  //////////Begin loop
     while(infile.hasNext())
     {
